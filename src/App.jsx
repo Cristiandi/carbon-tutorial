@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Content } from 'carbon-components-react';
+import { Content } from 'carbon-components-react';
 import { Routes, Route } from 'react-router-dom';
 
 import './app.scss';
@@ -15,7 +15,6 @@ const App = () => {
     <div className="App">
       <TutorialHeader />
       <Content>
-        <Button>Button</Button>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/repos" element={<RepoPage />} />
